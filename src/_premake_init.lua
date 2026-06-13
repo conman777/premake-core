@@ -839,6 +839,7 @@
 		scope = "config",
 		kind = "string",
 		allowed = {
+			"android",
 			"aix",
 			"bsd",
 			"emscripten",
@@ -1445,6 +1446,7 @@
 		value       = "VALUE",
 		description = "Generate files for a different operating system",
 		allowed = {
+			{ "android",    "Android" },
 			{ "aix",        "IBM AIX" },
 			{ "bsd",        "OpenBSD, NetBSD, or FreeBSD" },
 			{ "emscripten", "Emscripten" },
